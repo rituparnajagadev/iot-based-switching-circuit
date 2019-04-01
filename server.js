@@ -29,6 +29,8 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 console.log(path.join(__dirname, 'public'));
 
+//console.log("i am here");
+
 // go to cp
 app.get("/cp", function(req, res) {
     console.info("control pannel");
